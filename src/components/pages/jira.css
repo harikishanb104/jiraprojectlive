@@ -1,0 +1,36 @@
+.total{
+    margin: -35px 0 0 20px;
+}
+/*.heading{
+    background: white;
+    padding: 20px;
+
+}*/
+.SearchFilter{
+    width:100%;
+    padding-bottom: 10px;
+
+}
+
+.custom-data-table .rdt_TableHead {
+    background-color:gainsboro ;
+}
+
+.custom-data-table .rdt_TableHeadRow {
+    background-color: gainsboro;
+}
+
+.custom-data-table .rdt_TableHeadRow .rdt_TableCol {
+    background-color: gainsboro;
+    color: #000; /* Optional: Adjust text color if needed */
+}
+.searchs{
+    padding: 10px;
+    margin-left: -14px;
+}
+
+
+.SearchFilter .label{
+    padding-right: 24px;
+    font-weight: 400;
+}

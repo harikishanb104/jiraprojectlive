@@ -1,0 +1,135 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.login-form {
+    width: 300px; /* Adjust the width of the form as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    padding-top:10px;
+    margin-bottom: 15px;
+
+
+}
+.loginheader{
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom:10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#4d9078;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #df9f20;
+}
+
+.error {
+    color: red;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Set your desired background color */
+}
+
+/* Style the container that wraps the login form */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to the full viewport height */
+    background-color: #f2f2f2; /* Set the same background color as body */
+}
+
+/* Style the login form */
+.login-form {
+    width: 300px; /* Adjust the width of the form as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set the background color of the form */
+}
+.password-input-container {
+    position: relative;
+    width:100%;
+}
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1; /* Ensure the icon is above the input field */
+}
+.exportModalPopup {
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 230px;
+    top: 34%;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 4px;
+    outline: none;
+    padding: 40px;
+    max-width: 380px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.submit {
+    padding-top:35px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.submit button {
+    width:49%;
+}
+.openclass{
+    opacity: 0.3;
+    background-color: black;
+}
+.ReactModalPortal{
+
+}
+.forgot-password-link{
+    padding-top: 5px;
+    color: #4d9078;
+    cursor: pointer;
+}
+.forgotpasswordusername{
+    padding-top: 15px;
+}
+.successmessage{
+    color: green;
+   padding-top: 20px;
+}

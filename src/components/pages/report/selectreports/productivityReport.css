@@ -1,0 +1,105 @@
+.projectvityreport{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+.projectvityreport label{
+    min-width: 80px;
+    width: 80px;
+}
+.reportdata{
+    padding-left:20px;
+}
+.reportdata label{
+    min-width: 80px;
+    width: 80px;
+    padding-right:0px;
+    margin-right: 18px;
+}
+.searchlabelreport{
+    /* padding-right: 20px; */
+    margin: inherit;
+    padding-right: 41px;
+    width: auto !important;
+    min-width: inherit !important;
+}
+.css-13cymwt-control{
+    border: 1px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133)) !important;
+    min-width: 250px !important;
+    margin-right: 20px;
+    width: 250px !important;
+    color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    height: 36px;
+    margin: 0;
+
+}
+.css-3w2yfm-ValueContainer{
+    width: 175px !important;
+}
+.css-t3ipsp-control{
+    min-width: 250px;
+
+}
+.css-1nmdiq5-menu div div {
+
+    display: flex;
+    align-items: baseline;
+
+}
+.css-1nmdiq5-menu div div input{
+    margin-right: 5px;
+}
+.css-3w2yfm-ValueContainer{
+    width:250px;
+    flex-wrap: nowrap !important;
+  /*  overflow: auto !important;*/
+}
+.css-1jqq78o-placeholder{
+    color: #000000 !important;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+
+
+.reportclass{
+align-items: baseline;}
+
+.resourcereport-button{
+    position: relative;
+    top: 12px;
+}
+.resourcereport-button .resource-button{
+    width: auto;
+}
+.custom-dropdown select{
+    padding: 8px;
+    margin-right: 20px;
+    outline: none !important;
+    min-width: 220px;
+    width: 220px;
+}
+.startdatereport{
+    padding-left: 20px;
+}
+.labelreport{
+    margin-bottom: 10px;
+}
+.selectreport{
+    margin-bottom: 5px;
+}
+.startdateproductivity{
+    min-width: 105px !important;
+    width:105px !important;
+    margin-right: 8px;
+    font-size: 14px;
+    min-width: 70px;
+
+}
+.reportsearch{
+    margin-left: 25px;
+}
+.reportdatatable{
+    overflow-y: auto;
+
+}

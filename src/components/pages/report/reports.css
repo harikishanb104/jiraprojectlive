@@ -1,0 +1,14 @@
+.title{
+    flex: 1 0 auto;
+    font-weight: 400;
+}
+.label{
+    padding: 20px;
+}
+.productvityselectreport label{
+    min-width: 90px;
+    width: 90px;
+}
+.productvityselectreport{
+    padding-left: 20px;
+}

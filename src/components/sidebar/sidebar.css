@@ -1,0 +1,26 @@
+.logout{
+    position: absolute; bottom: 0px;
+}
+.logout-btn{
+    background: none;
+    text-align: left;
+    padding: 10px 15px;
+    display: flex;
+    gap: 15px;
+    transition: all 0.5s;
+    font-size: 20px;
+    color: #ffffff;
+}
+.logout-btn:hover{
+    background: #DF9F20;
+    color: #ffffff;
+}
+.logout-btn-txt{
+    display: none;
+}
+.logout-btn-block{
+    display: block;
+}
+.isOen .logout-btn-txt{
+    display: block;
+}

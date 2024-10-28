@@ -1,0 +1,22 @@
+.main-content-container {
+    display: flex;
+}
+.sidebar {
+    flex: 0% 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    width: auto;
+}
+.outlet {
+    flex:100%;
+    padding-bottom: 48px;
+    padding-left: 50px;
+    transition: all ease-in-out 0.3s;
+}
+.sidebaropen{
+    padding-left: 150px;
+    transition: all ease-in-out 0.3s;
+}

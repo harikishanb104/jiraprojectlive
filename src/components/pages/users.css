@@ -1,0 +1,101 @@
+.exportxls {
+    height: 28px;
+    fontSize: 14px;
+    padding: 6px 0px;
+    width:3%;
+    margin-right: 10px;
+}
+.searchlabel{
+    margin: inherit;
+    padding-right: 5px;
+    width: auto !important;
+    min-width: inherit !important;
+}
+.SearchFilter{
+    width:100%;
+    padding-bottom: 10px;
+}
+
+.custom-data-table .rdt_TableHead {
+    background-color:gainsboro ;
+}
+
+.custom-data-table .rdt_TableHeadRow {
+    background-color: gainsboro;
+}
+
+.custom-data-table .rdt_TableHeadRow .rdt_TableCol {
+    background-color: gainsboro;
+    color: #000; /* Optional: Adjust text color if needed */
+}
+
+.custom-data-table div div{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.exportModal{
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100px;
+}
+.exportModal h2{
+    margin: 0 0 20px 0;
+}
+.exportModal .custom-btn{
+    background: none ;
+    position: absolute;
+    top: 87px;
+    right: 476px;
+    width: auto;
+    color: #000000;
+}
+
+.exportModal button{
+    background: none ;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: auto;
+    color: #000000;
+}
+
+.three-dots-loader {
+    color: #4d9078;
+}
+/*
+.uploaddata{
+    background-color:#3498db;
+}
+*/
+
+.reportupload{
+    background-color: #FF7D33;
+}
+.samplefile-link {
+    display: block;
+    margin-top: 10px; /* Adjust the margin as needed */
+    color: blue !important;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.loginusername{
+    color: #4d9078;
+    font-weight: normal;
+}
+
+/*.samplefile-link:hover {
+    color: darkblue;
+    text-decoration: none;
+}*/
+

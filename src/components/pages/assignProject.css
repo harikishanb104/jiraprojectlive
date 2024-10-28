@@ -1,0 +1,89 @@
+.assigntable {
+
+
+}
+
+.assigntable td {
+    padding: 15px;
+
+}
+
+.small-button {
+   
+    width: 200px;
+}
+
+
+/* assignProject.css */
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.table-heading {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+}
+
+/* styles.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    padding-left: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.value {
+    padding-right: 20px; /* Adjust spacing between values if needed */
+}
+
+.backbutton{
+    max-width: 100px;
+    float: right;
+    margin: 0 5px 0 0;
+
+
+}
+.backbutton svg{
+    position: relative;
+    top: 2px
+}
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading {
+    margin: 0;
+}
+.excel{
+    background: green;
+}
+.sameline{
+
+}
+
+
